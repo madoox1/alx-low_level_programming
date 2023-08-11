@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-        int i;
+	int i;
 
-        putchar('0');
-        for (i = 0; i < 9 ; i++)
-        {
-                putchar(',');
-                putchar(' ');
-                putchar('1' + i);
-        }
-        putchar('\n');
-        return (0);
+	putchar('0');
+	for (i = 0; i < 9 ; i++)
+	{
+		putchar(',');
+		putchar(' ');
+		putchar('1' + i);
+	}
+	putchar('\n');
+	return (0);
 }
