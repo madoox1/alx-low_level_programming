@@ -9,13 +9,8 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i < 26; i++)
-	{
-		if ('a' + i == 'q' || 'a' + i == 'e')
-			continue;
-		else
-			 putchar('a' + i);
-	}
+	for (i = 0;i < 10; i++)
+		printf("%d", i);
 	putchar('\n');
-	return (0);
+	return(0);
 }
