@@ -4,9 +4,9 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - Enter point
+ * main - Entry point
  *
- * Return : Always 0
+ * Return: Always 0 
  */
 int main(void)
 {
