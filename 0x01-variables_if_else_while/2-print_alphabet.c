@@ -1,4 +1,5 @@
 #include <stdio.h>
+/* betty style doc for function main goes there */
 /**
  * main - Entry point
  *
@@ -6,10 +7,9 @@
  */
 int main(void){
 	int i;
-
-	for(i = 0; i < 26; i++)
-		putchar('a' + i);
+	for(i = 0; i < 26 ;i++)
+		putchar('a'+i);
 	
-		printf("\n");
-	return(0);
+	printf("\n");
+	return (0);
 }
