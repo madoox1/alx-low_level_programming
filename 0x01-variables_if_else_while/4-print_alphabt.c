@@ -9,12 +9,12 @@ int main(void)
 {
 	int i;
 
-	for(i = 0; i < 26; i++)
+	for (i = 0; i < 26; i++)
 	{
-		if( 'a' + i == 'q' || 'a' + i == 'e' )
+		if ('a' + i == 'q' || 'a' + i == 'e')
 			continue ;
 		else
-			 putchar('a' + i );
+			 putchar('a' + i);
 	}
 	printf("\n");
 	return (0);
