@@ -9,10 +9,10 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i < 26 ;i++)
+	for (i = 0; i < 26 ; i++)
 		putchar('a' + i);
-	for (i = 0; i < 26 ;i++)
-                putchar('A' + i);
+	for (i = 0; i < 26 ; i++)
+		putchar('A' + i);
 	printf("\n");
 	return (0);
 }
