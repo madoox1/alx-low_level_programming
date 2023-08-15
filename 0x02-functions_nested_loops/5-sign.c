@@ -2,7 +2,7 @@
 #include "main.h"
 /* betty style doc for function main goes there */
 /**
- *sign - check the signe of a number
+ *print_sign - check the signe of a number
  *Return: 1 if positif, 0 if null, -1 if negative
  *@n: is the number to be checked
  */
@@ -22,5 +22,5 @@ int print_sign(int n)
 	{
 		_putchar('-');
 		return (-1);
-	}	
+	}
 }
