@@ -2,10 +2,25 @@
 #include "main.h"
 /* betty style doc for function main goes there */
 /**
- *_isalpha - check if character is a letter
- *Return: 1 if letter,0 otherwise
- *@c: is the char to be checked
+ *sign - check the signe of a number
+ *Return: 1 if positif, 0 if null, -1 if negative
+ *@n: is the number to be checked
  */
 int print_sign(int n)
 {
-	if (
+	if (n > 0)
+	{
+		_putchar('+');
+		return (1);
+	}
+	else if (n == 0)
+	{
+		_putchar('0');
+		return (0);
+	}
+	else
+	{
+		_putchar('-');
+		return (-1);
+	}	
+}
