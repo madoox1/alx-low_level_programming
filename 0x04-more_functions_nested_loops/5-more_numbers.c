@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * more_numbers- prints numbers from 0 to 9 except 2 and 4
+ * more_numbers - prints 0-9 except 2 and 4
  * Return: none
  */
 void more_numbers(void)
@@ -15,6 +15,6 @@ void more_numbers(void)
 				_putchar('1');
 			_putchar(j % 10 + '0');
 		}
-	_putchar('\n');	
+	_putchar('\n');
 	}
 }
