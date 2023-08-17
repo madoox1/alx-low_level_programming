@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * main - checks for degit
- * return : 1 if degit 0 if not
- * @c : char to chech
+ * _isdigit - checks for degit
+ * return: 1 if degit 0 if not
+ * @c: char to chech
  */
 int _isdigit(int c)
 {
-        if (c <='9' && c >= '0')
+        if (c <= '9' && c >= '0')
                 return (1);
         else
                 return (0);
