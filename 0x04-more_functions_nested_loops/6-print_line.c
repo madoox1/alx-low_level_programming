@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_line- prints '-' n times
+ * print_line- prints - n times
  * Return: none
  * @n: number of time to print
  */
