@@ -11,10 +11,7 @@ if (n > 0)
 {
 	for (i = 0; i < n; i++)
 	{
-		if (n > 0)
-			_putchar('-');
-		else
-			_putchar('\n');
+		_putchar('-');
 	}
 	_putchar('\n');
 }
