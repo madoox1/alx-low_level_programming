@@ -2,8 +2,8 @@
 /**
  * swap_int - swaps the values of two integers
  * Return: none
- * @*a: pointer to first int
- * @*b: pointer to second int
+ * @a: pointer to first int
+ * @b: pointer to second int
  */
 void swap_int(int *a, int *b)
 {
