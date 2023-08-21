@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts - prints a string in inverse
+ * print_rev - prints a string in inverse
  * Return: none
  * @s: string to print
  */
