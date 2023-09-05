@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * _strdup - copy a string
- * return: pointer to string
+ * Return: pointer to string
  * @str: string
  */
 char *_strdup(char *str)
