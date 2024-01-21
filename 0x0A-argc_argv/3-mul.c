@@ -8,13 +8,15 @@
  */
 int main(int argc, char const *argv[])
 {
-	if (argc == 1 || argc == 2)
+	int res;
+
+	if (argc != 3)
 	{
 	printf("Error\n");
 	return (1);
+	
 	}
-        int res ;
-        res = atoi(argv[1]) * atoi(argv[argc - 1]);
-        printf("%d",res);
-        return(0);
-}                                 
+	res = atoi(argv[1]) * atoi(argv[2]);
+	printf("%d\n", res);
+	return (0);
+}
