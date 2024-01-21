@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - program that adds positive numbers.
+ * main - prints minimum number coins to make change for an amount of money.
  * @argc: number of arguments
  * @argv: array with the arguments
  *
@@ -11,29 +11,37 @@
 
 int main(int argc, char *argv[])
 {
-	int i, suma = 0, res = 0;
-	char c[] = "Error", *find_letter;
+	int dev = 0, coins = 0;
+	char c[] = "Error";
 
-	if (argc > 1)
+	if (argc != 2)
 	{
-		for (i = 1; i < argc; i++)
-		{
-			find_letter = argv[i];
-			while (*find_letter != 0)
-			{
-				if (*find_letter < 47 || *find_letter > 57)
-				{
-					printf("%s\n", c);
-					return (1);
-				}
-				find_letter++;
-			}
-			res = atoi(argv[i]);
-			suma += res;
-		}
-		printf("%d\n", suma);
+		printf("%s\n", c);
+		return (1);
 	}
-	else
-		printf("%d\n", 0);
+	dev = atoi(argv[1]);
+	while (dev >= 25)
+	{
+		dev -= 25;
+		coins++;
+	}
+	while (dev >= 10)
+	{
+		dev -= 10;
+		coins++;
+	}
+	while (dev >= 5)
+	{
+		dev -= 5;
+		coins++;
+	}
+	while (dev >= 2)
+	{
+		dev -= 2;
+		coins++;
+	}
+	if (dev == 1)
+		coins++;
+	printf("%d\n", coins);
 	return (0);
 }
